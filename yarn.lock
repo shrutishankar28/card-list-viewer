@@ -674,11 +674,18 @@
   dependencies:
     "@types/react" "*"
 
-"@types/react-native@^0.56.15":
+"@types/react-native@*", "@types/react-native@^0.56.15":
   version "0.56.15"
   resolved "https://registry.yarnpkg.com/@types/react-native/-/react-native-0.56.15.tgz#b1b2693153859f3a3d49533a3539ca83edd45b91"
   dependencies:
     "@types/react" "*"
+
+"@types/react-navigation@^2.0.19":
+  version "2.0.19"
+  resolved "https://registry.yarnpkg.com/@types/react-navigation/-/react-navigation-2.0.19.tgz#217c0dc073e4a726f780aaef063dd8d8121b782c"
+  dependencies:
+    "@types/react" "*"
+    "@types/react-native" "*"
 
 "@types/react@*", "@types/react@^16.4.13":
   version "16.4.13"
